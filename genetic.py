@@ -133,7 +133,7 @@ def run_evolution(
         crossover_func: CrossoverFunc = single_point_crossover,
         mutation_func: MutationFunc = mutation,
         fitness_score: int = 20,
-        generation_limit: int = 3000
+        generation_limit: int = 5000
         ) \
         -> Tuple[Population, int]:
 
